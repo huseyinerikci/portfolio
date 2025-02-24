@@ -1,5 +1,3 @@
-import Link from "next/link";
-import { GrProjects } from "react-icons/gr";
 const About = () => {
   return (
     <article className="  prose md:mt-4 md:prose-xl dark:prose-dark">
@@ -69,19 +67,19 @@ const About = () => {
                   myWorkExperience
                 </span>
                 {" = ["}
-                <span className="block mt-1 ml-52 md:ml-56 lg:ml-64">
+                <span className="block mt-2 ml-5 md:ml-6 lg:ml-8">
                   {"{ "}company: "Emaartechs", role: "Frontend Developer",
                   duration: "1 Year"{" },"}
                 </span>
-                <span className="block mt-2 ml-52 md:ml-56 lg:ml-64">
+                <span className="block mt-2 ml-5 md:ml-6 lg:ml-8">
                   {"{ "}company: "TABAŞ", role: "Biomedical Engineer", duration:
                   "2 years"{" },"}
                 </span>
-                <span className="block mt-2 mb-1 ml-52 md:ml-56 lg:ml-64">
+                <span className="block mt-2 ml-5 md:ml-6 lg:ml-8">
                   {"{ "}company: "Maya Computer", role: "Intern", duration: "60
                   days"{" }"}
                 </span>
-                <span className="block ml-[198px] md:ml-[214px] lg:ml-[246px]">
+                <span className="block ml-3 md:ml-[18px] lg:ml-6 mt-2">
                   {"]"};
                 </span>
               </p>

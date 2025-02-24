@@ -1,6 +1,5 @@
 import React from "react";
 import GithubIcon from "@/components/icons/GithubIcon";
-import TwitterIcon from "@/components/icons/TwitterIcon";
 import LinkedinIcon from "@/components/icons/LinkedinIcon";
 import { GrProjects } from "react-icons/gr";
 import { motion } from "framer-motion";
