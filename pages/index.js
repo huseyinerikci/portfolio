@@ -1,22 +1,19 @@
 import React from "react";
 import Layout from "../components/Layout";
-import Typical from "react-typical";
 import About from "@/components/About";
 import SocialIcon from "@/components/SocialIcon";
+import { Typewriter } from "react-simple-typewriter";
 
 const TypingAnimation = React.memo(() => {
   return (
-    <Typical
-      loop={Infinity}
-      wrapper="p"
-      steps={[
-        "Frontend Developer",
-        2000,
-        "React Developer",
-        2000,
-        "Software Developer",
-        2000,
-      ]}
+    <Typewriter
+      words={["Frontend Developer", "React Developer", "Software Developer"]}
+      loop={0} // sonsuz döngü için 0
+      cursor
+      cursorStyle="|"
+      typeSpeed={100} // yazma hızı (ms cinsinden)
+      deleteSpeed={50} // silme hızı
+      delaySpeed={2000} // kelimeler arası bekleme süresi
     />
   );
 });
