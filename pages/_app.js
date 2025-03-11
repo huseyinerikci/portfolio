@@ -2,6 +2,8 @@ import { ThemeProvider } from "next-themes";
 import NextNProgress from "nextjs-progressbar";
 import { cyan } from "tailwindcss/colors";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 import "../styles/globals.css";
 
 export default function App({ Component, pageProps }) {
@@ -10,6 +12,7 @@ export default function App({ Component, pageProps }) {
       <NextNProgress color={cyan[500]} height={4} />
       <Component {...pageProps} />
       <Analytics />
+      <SpeedInsights />
     </ThemeProvider>
   );
 }
