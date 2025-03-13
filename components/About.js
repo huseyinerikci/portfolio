@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const About = () => {
   return (
     <article className="  prose md:mt-4 md:prose-xl dark:prose-dark">
@@ -29,10 +31,13 @@ const About = () => {
 
               {/* <!-- Resim bölümü --> */}
               <div className="flex-shrink-0 lg:hidden">
-                <img
-                  src="https://avatars.githubusercontent.com/u/102507139?v=4"
-                  alt="Me"
+                <Image
+                  src="/profile.jpeg"
+                  alt="Hüseyin Erikci - Frontend Developer Profil Fotoğrafı"
+                  width={160}
+                  height={160}
                   className="w-28 h-28 md:w-32 md:h-32 lg:w-40 lg:h-40 rounded-full filter brightness-75"
+                  unoptimized
                 />
               </div>
             </div>

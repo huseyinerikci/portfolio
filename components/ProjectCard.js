@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const ProjectCard = ({
   project: { title, description, tags, image, source },
@@ -14,11 +15,16 @@ const ProjectCard = ({
     >
       <div className="w-full h-full p-4 bg-white rounded-lg dark:bg-gray-900">
         <div className="flex flex-col items-center space-y-4">
-          <img
-            src={image.url}
-            alt={title}
-            className="object-cover w-full h-[250px] rounded-lg max-h-64"
-          />
+          <div className="relative w-full h-[250px]">
+            <Image
+              src={image.url}
+              alt={`${title} - Hüseyin Erikci Portfolio Projesi`}
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              className="object-cover rounded-lg"
+              unoptimized
+            />
+          </div>
           <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
             {title}
           </h2>
