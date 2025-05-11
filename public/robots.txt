@@ -1,4 +1,10 @@
+# *
 User-agent: *
 Allow: /
 
-Sitemap: https://www.huseyinerikci.info/sitemap.xml 
+# Host
+Host: https://www.huseyinerikci.info
+
+# Sitemaps
+Sitemap: https://www.huseyinerikci.info/sitemap.xml
+Sitemap: https://www.huseyinerikci.info/server-sitemap.xml
