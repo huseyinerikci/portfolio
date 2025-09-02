@@ -74,11 +74,11 @@ const About = () => {
                 {" = ["}
                 <span className="block mt-2 ml-5 md:ml-6 lg:ml-8">
                   {"{ "}company: "Didiyos", role: "React-Frontend Developer",
-                  duration: "1 Year"{" },"}
+                  duration: "April 2025 – Present"{" },"}
                 </span>
                 <span className="block mt-2 ml-5 md:ml-6 lg:ml-8">
-                  {"{ "}company: "Emaartechs", role: "Frontend Developer",
-                  duration: "2 Year"{" },"}
+                  {"{ "}company: "Udemig", role: "React-Frontend Developer",
+                  duration: "7 Month"{" },"}
                 </span>
                 <span className="block mt-2 ml-5 md:ml-6 lg:ml-8">
                   {"{ "}company: "TABAŞ", role: "Biomedical Engineer", duration:
